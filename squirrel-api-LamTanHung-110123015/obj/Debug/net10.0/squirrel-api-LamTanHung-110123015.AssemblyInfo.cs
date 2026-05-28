@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("squirrel-api-LamTanHung-110123015")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42d5301781dcf8eba09c977e9feef704bdaf37e5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26e7261746be5238479540595e653a48c797160d")]
 [assembly: System.Reflection.AssemblyProductAttribute("squirrel-api-LamTanHung-110123015")]
 [assembly: System.Reflection.AssemblyTitleAttribute("squirrel-api-LamTanHung-110123015")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

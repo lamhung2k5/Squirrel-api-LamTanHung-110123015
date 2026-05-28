@@ -8,19 +8,22 @@ public class EquationSolverTest {
 
     @Test
     public void testVoSoNghiem() {
-        // a = 0, b = 0 -> Kết quả mong đợi là VSN
-        assertEquals("VSN", solver.giaiPhuongTrinhBac1(0, 0));
+        String ketQua = solver.giaiPhuongTrinhBac1(0, 0);
+        System.out.println("Kết quả test 1 (a=0, b=0) là: " + ketQua);
+        assertEquals("VSN", ketQua);
     }
 
     @Test
     public void testVoNghiem() {
-        // a = 0, b != 0 -> Kết quả mong đợi là VN
-        assertEquals("VN", solver.giaiPhuongTrinhBac1(0, 5));
+        String ketQua = solver.giaiPhuongTrinhBac1(0, 5);
+        System.out.println("Kết quả test 2 (a=0, b=5) là: " + ketQua);
+        assertEquals("VN", ketQua);
     }
 
     @Test
     public void testCoNghiem() {
-        // a != 0 -> Kết quả mong đợi là CN
-        assertEquals("CN", solver.giaiPhuongTrinhBac1(2, -4));
+        String ketQua = solver.giaiPhuongTrinhBac1(2, -4);
+        System.out.println("Kết quả test 3 (a=2, b=-4) là: " + ketQua);
+        assertEquals("CN", ketQua);
     }
 }
